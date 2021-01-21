@@ -11,3 +11,38 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.wrapper {
+  padding-top: 5 rem;
+  margin: 0 auto;
+  width: 600px;
+}
+
+.rm {
+  background-color: red;
+  border-radius: 50%;
+  color: #ffffff;
+  border: none;
+}
+
+.done {
+  text-decoration: line-through;
+}
+
+.form {
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; 
+}
+.input-todo, .input-submit {
+  font-size: 1rem;
+  padding: .3rem;
+}
+.input-todo {
+  width: 100%;
+}
+.input-submit {
+  display: block;
+  width: 10rem;
+}
